@@ -17,7 +17,6 @@ public class Conta {
 				this.tipo = tipo;
 				this.titular = titular;
 				this.saldo = saldo;
-				this.credito = credito;
 				
 		}
 		
@@ -71,15 +70,6 @@ public class Conta {
 			this.saldo = saldo;
 		}
 
-
-		public int getCredito() {
-			return credito;
-		}
-
-
-		public void setCredito(int credito) {
-			this.credito = credito;
-		}
 		
 		public void visualizar() {
 			
@@ -93,8 +83,7 @@ public class Conta {
 			System.out.println("Titular: " + this.titular);
 			System.out.println("****************************************************************");
 			System.out.println("Saldo: " + this.saldo);
-			System.out.println("****************************************************************");
-			System.out.println("Crédito " + this.credito);
+	
 		}
 }
 
